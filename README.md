@@ -22,7 +22,9 @@ This Streamlit-based web application allows users to upload spinal X-ray images 
 ## 🧠 Model
 
 The deep learning model used is **MobileNetV2**, trained on a balanced dataset of spinal X-ray images. It predicts:
+
 - `Normal`
+  
 - `Unhealthy`
 
 Model file: `mobilenetv2_balanced_model.h5`
@@ -49,7 +51,7 @@ AS-Detection-App/
 ## ⚙️ Installation & Usage
 
 1. **Clone the repository** (or download ZIP):
-   ```bash
+
    git clone <repo_url>
    
 **Install dependencies:**
@@ -61,6 +63,7 @@ pip install -r requirements.txt
 **Run the app:**
 
 streamlit run app.py
+
 Open your browser and visit: http://localhost:8501
 
 **🛠 Dependencies**
@@ -68,9 +71,13 @@ Open your browser and visit: http://localhost:8501
 Create a requirements.txt file with the following content:
 
 streamlit
+
 tensorflow
+
 Pillow
+
 fpdf
+
 numpy
 
 **Install using:**
